@@ -3315,7 +3315,7 @@ void Osiris_InitOMMS(void) {
 }
 
 void Osiris_CloseOMMS(void) {
-  LOG_DEBUG << "OSIRIS: Reseting OMMS memory";
+  LOG_DEBUG << "OSIRIS: Resetting OMMS memory";
 
   tOMMSHashNode *curr = OMMS_Hash_node_root;
 

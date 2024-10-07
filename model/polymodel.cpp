@@ -1661,7 +1661,7 @@ int ReadNewModelFile(int polynum, CFILE *infile) {
       if (pm->n_attach == (num_normals = cf_ReadInt(infile)))
         f_uvec = true;
       else {
-        LOG_WARNING << "Ingoring ATTACH normals - total number doesn't match number of attach points";
+        LOG_WARNING << "Ignoring ATTACH normals - total number doesn't match number of attach points";
         // Int3();
         DataError("Model <%s> specifies %d attach points but only contains %d attach normals\n", pm->name, pm->n_attach,
                   num_normals);

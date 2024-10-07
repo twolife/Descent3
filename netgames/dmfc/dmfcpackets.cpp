@@ -526,7 +526,7 @@ void DMFCBase::GetDMFCVersionCheck(uint8_t *data) {
 
   if ((major != DMFC_VERSION_MAJOR) || (minor != DMFC_VERSION_MINOR)) {
     char buffer[200];
-    snprintf(buffer, sizeof(buffer), "Excpecting Version %d.%d, found %d.%d", major, minor, DMFC_VERSION_MAJOR,
+    snprintf(buffer, sizeof(buffer), "Expecting Version %d.%d, found %d.%d", major, minor, DMFC_VERSION_MAJOR,
              DMFC_VERSION_MINOR);
     FatalError(buffer);
   }

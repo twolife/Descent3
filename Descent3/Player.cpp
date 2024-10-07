@@ -3655,7 +3655,7 @@ bool PlayerResetShipPermissions(int pnum, bool set_default) {
 
   int perm;
 
-  LOG_DEBUG << "Reseting ship permissions";
+  LOG_DEBUG << "Resetting ship permissions";
 
   if (set_default)
     perm = Default_ship_permission;

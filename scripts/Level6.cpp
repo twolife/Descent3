@@ -1284,7 +1284,7 @@ void PriestJustEnteredPuzzle(void) {
 }
 
 void PriestResetPuzzle(void) {
-  mprintf(0, "Reseting Priest Key Puzzle\n");
+  mprintf(0, "Resetting Priest Key Puzzle\n");
   if (Var_PriestPuzzleCompleted != 1.0f) {
     Var_PriestPlayerCurrNode = 0;
     Var_PriestPuzzleGoofed = 0;

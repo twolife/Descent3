@@ -425,7 +425,7 @@ int msn_DownloadWithStatus(char *url, char *filename) {
                   if(getmsnfile->IsFileReceived())
                   {
                           //File transfer successful!
-                          mprintf(0,"Succesfully received the file!\n");
+                          mprintf(0,"Successfully received the file!\n");
                           exit_menu = 1;
 
                           if(file_is_zip)
@@ -1012,7 +1012,7 @@ int ModDownloadWithStatus(char *url, char *filename) {
                   if(getmsnfile->IsFileReceived())
                   {
                           //File transfer successful!
-                          mprintf(0,"Succesfully received the file!\n");
+                          mprintf(0,"Successfully received the file!\n");
                           exit_menu = 1;
 
                           if(file_is_zip)
